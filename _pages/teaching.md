@@ -8,8 +8,8 @@ author_profile: true
 ## Teaching Assistant
 **Sharif University of Technology**  
 *Sep. 2021 -- Present*  
-<img src="/images/institutions/sharif.png" alt="Sharif University of Technology" style="width: 50px; height: auto; margin-right: 10px; vertical-align: middle;">
 Tehran, Iran  
+<img src="/images/institutions/sharif.png" alt="Sharif University of Technology" style="width: 100px; height: auto; float: right; margin-left: 20px; margin-bottom: 20px;">
 - Natural Language Processing (Graduate): Dr. E. Asgari | Exam Design | Spring 2025
 - Deep Learning (Graduate): Dr. F. Seyyedsalehi | Exam Design | Spring 2025
 - Technical Presentation: Dr. Sh. Kasaei | Exam Design | Fall 2024
@@ -24,5 +24,5 @@ Tehran, Iran
 ## Mathematics and Physics Teacher
 **Noyan Academy**  
 *Sep. 2022 -- Sep. 2023*  
-<img src="/images/institutions/noyan.png" alt="Noyan Academy" style="width: 50px; height: auto; margin-right: 10px; vertical-align: middle;">
-Tehran, Iran 
+Tehran, Iran  
+<img src="/images/institutions/noyan.png" alt="Noyan Academy" style="width: 100px; height: auto; float: right; margin-left: 20px; margin-bottom: 20px;"> 
