@@ -17,6 +17,19 @@ url                      : https://mehdilotfian.github.io
 baseurl                  : ""
 repository               : "MehdiLotfian/mehdilotfian.github.io"
 
+# Theme Settings
+theme_settings:
+  # Dark mode support
+  dark_mode: true
+  dark_mode_icon: "🌙"
+  light_mode_icon: "☀️"
+  # Default theme (light or dark)
+  default_theme: "light"
+  # Enable theme switcher
+  theme_switcher: true
+  # Enable system theme detection
+  system_theme_detection: true
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
@@ -33,11 +46,11 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -50,7 +63,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # URL
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username

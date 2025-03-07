@@ -9,6 +9,18 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% if site.theme_settings.dark_mode %}
+    <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
+    {% endif %}
+    {% if site.favicon or site.theme_settings.favicon %}
+    <link rel="icon" type="image/png" href="{{ site.favicon path | default: site.theme_settings.favicon | relative_url }}">
+    {% endif %}
+    {% seo %}
   </head>
 
   <body>
@@ -26,6 +38,10 @@ layout: compress
     </div>
 
     {% include scripts.html %}
+
+    {% if site.theme_settings.dark_mode %}
+    <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}"></script>
+    {% endif %}
 
   </body>
 </html>
