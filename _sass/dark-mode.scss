@@ -1,7 +1,7 @@
 // Dark mode styles
 [data-theme="dark"] {
   // Background colors
-  body, .page__content, .page__inner-wrap {
+  body, .page__content, .page__inner-wrap, .masthead, .page__footer {
     background-color: #1a1a1a;
     color: #e0e0e0;
   }
@@ -21,7 +21,7 @@
 
   // Navigation
   .navbar, .masthead {
-    background-color: #2d2d2d;
+    background-color: #2d2d2d !important;
     border-bottom: 1px solid #404040;
   }
 
@@ -53,8 +53,8 @@
   }
 
   // Footer
-  footer {
-    background-color: #2d2d2d;
+  footer, .page__footer {
+    background-color: #2d2d2d !important;
     border-top: 1px solid #404040;
   }
 
@@ -89,6 +89,14 @@
   // Images
   img {
     filter: brightness(0.8) contrast(1.2);
+  }
+
+  // Institution logos
+  img[alt*="University"], img[alt*="school"] {
+    filter: brightness(1) contrast(1);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
   }
 
   // Theme switcher button
