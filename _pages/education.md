@@ -1,0 +1,19 @@
+---
+layout: single
+title: "Education"
+permalink: /education/
+author_profile: true
+---
+
+## Sharif University of Technology
+**Bachelor of Science in Computer Engineering**  
+*Nov. 2020 -- Present*  
+Tehran, Iran  
+- Current GPA: 19.38/20 (4.00/4.00, top 10%)
+- Last Year GPA: 19.64/20
+
+## Shahid Soltani High school (NODET)
+**Diploma in Mathematics and Physics**  
+*Sep. 2016 -- Jun. 2020*  
+Karaj, Iran  
+- GPA: 19.85/20 
