@@ -135,3 +135,57 @@ Tehran, Iran
 - First-Year Students Mentor: Guiding new students of Computer Engineering department | Sep. 2022 -- Sep. 2024
 - 8th Winter Seminar Series Staff: Seminars for latest research advances in Computer Science fields | Apr. 2023
 - Fardaye Sabz Charity Staff: Teaching Mathematics, English and Intro to Computer Science | Oct. 2022 -- Present
+
+# Experience
+
+## Research Experience
+
+### Research Assistant
+**Sharif University of Technology**  
+*Jan. 2024 -- Present*  
+<img src="/images/institutions/sharif.png" alt="Sharif University of Technology" style="width: 50px; height: auto; margin-right: 10px; vertical-align: middle;">
+- Knowledge Distillation for Semantic Segmentation at Image Processing Lab, under the supervision of Professor Sh. Kasaei and Mr. A. Mansourian
+- Using Kl divergence and other losses on eigenvectors of inputs for teacher and student model after Laplacian transform
+
+### Scientific Intern
+**Institute of Science and Technology Austria (ISTA)**  
+*Jul. 2024 -- Sep. 2024*  
+<img src="/images/institutions/ista.png" alt="ISTA" style="width: 50px; height: auto; margin-right: 10px; vertical-align: middle;">
+- GWAS analysis via vector approximate message passing under the supervision of Prof. M. Mondelli and Prof. Mathew Robinson
+- Re-deriving the VAMP formula for marginal estimates of X^TX and benchmarking against other baselines
+
+### Research Assistant Intern
+**EPFL & HEIG-VD**  
+*Sep. 2023 -- Dec. 2023*  
+<img src="/images/institutions/epfl.png" alt="EPFL" style="width: 50px; height: auto; margin-right: 10px; vertical-align: middle;">
+- Machine Learning in Rehabilitation at Data Science Lab, under the supervision of Prof. A. Perez-Uribe and Mrs. Y. Izadmehr
+- Using Computer Vision methods such as YOLO, Mediapipe, and MiDas for frame feature extraction and classification via classical Machine Learning methods
+
+### Research Assistant
+**Chinese University of Hong Kong (CUHK)**  
+*Jul. 2023 -- Sep. 2023*  
+<img src="/images/institutions/cuhk.png" alt="CUHK" style="width: 50px; height: auto; margin-right: 10px; vertical-align: middle;">
+- Analyzing access control systems with automated reasoning at Information Engineering Lab, under the supervision of Professor Sze Yui Chau
+
+## Teaching Experience
+
+### Teaching Assistant
+**Sharif University of Technology**  
+*Sep. 2021 -- Present*  
+<img src="/images/institutions/sharif.png" alt="Sharif University of Technology" style="width: 50px; height: auto; margin-right: 10px; vertical-align: middle;">
+- Natural Language Processing (Graduate): Dr. E. Asgari | Exam Design | Spring 2025
+- Deep Learning (Graduate): Dr. F. Seyyedsalehi | Exam Design | Spring 2025
+- Technical Presentation: Dr. Sh. Kasaei | Exam Design | Fall 2024
+- Machine Learning Theory (Graduate): Dr. F. SeyedSalehi | Co-Head of Theory | Spring 2024
+- Artificial Intelligence (×2): Dr. M. Rohban | Homework Review | Spring 2024 - Fall 2024
+- Theory of Machines and Languages (×3): Question Design and Grading | Fall 2023 - Spring 2024 (×2)
+- Machine Learning | Dr. A. Motahari | Holding Extra Sessions and Homework Design | Fall 2023
+- Linear Algebra (×2): Dr. H.R. Rabiee | Homework and Exam Design and Grading | Spring 2022 - Spring 2023
+- Probability and Statistics (×4): Head of Exams | Fall 2022 (×2) - Spring 2022 (×2)
+- Data Structures and Algorithms (×2): Holding Problem Solving Sessions | Fall 2022
+
+### Mathematics and Physics Teacher
+**Noyan Academy**  
+*Sep. 2022 -- Sep. 2023*  
+<img src="/images/institutions/noyan.png" alt="Noyan Academy" style="width: 50px; height: auto; margin-right: 10px; vertical-align: middle;">
+Tehran, Iran
