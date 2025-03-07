@@ -49,6 +49,33 @@
 }
 
 .page__content {
+  @include breakpoint($large) {
+    @include span(9 of 12 last);
+    @include prefix(0.5 of 12);
+  }
+
+  @include breakpoint($x-large) {
+    @include prefix(0.5 of 12);
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: $border-radius;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+  }
+
+  img + em {
+    color: var(--global-text-color-light);
+    display: block;
+    font-size: $type-size-6;
+    font-family: $caption-font-family;
+    text-align: center;
+  }
 
   h2 {
     padding-bottom: 0.5em;

@@ -19,9 +19,10 @@
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
-    overflow-y: auto;               // Add scrollbar if the sidebar is too long
+    overflow-y: auto;
     position: fixed;
     padding-top: $masthead-height;
+    width: 300px;
   }
 
   @include breakpoint($large) {
@@ -29,6 +30,7 @@
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
+    padding-right: 2em;
 
     &:hover {
       opacity: 1;
@@ -37,7 +39,7 @@
 
   @include breakpoint($x-large) {
     max-width: 300px;
-    padding-right: 0;
+    padding-right: 2em;
   }
 
   h2, h3, h4, h5, h6 {
@@ -89,6 +91,7 @@
     display: block;
     width: auto;
     height: auto;
+    margin-bottom: 1em;
   }
 
   img {
@@ -119,6 +122,7 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: 1em;
   }
 }
 
