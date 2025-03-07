@@ -1,5 +1,6 @@
 // Theme switcher functionality
 document.addEventListener('DOMContentLoaded', () => {
+  // Create theme switcher button
   const themeSwitcher = document.createElement('button');
   themeSwitcher.className = 'theme-switcher';
   themeSwitcher.innerHTML = '🌙'; // Default to light mode icon
@@ -30,30 +31,44 @@ document.addEventListener('DOMContentLoaded', () => {
     themeSwitcher.style.transform = 'scale(1)';
   });
 
+  // Function to set theme
+  function setTheme(theme) {
+    try {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      updateThemeIcon(theme);
+    } catch (error) {
+      console.error('Error setting theme:', error);
+    }
+  }
+
+  // Function to update theme icon
+  function updateThemeIcon(theme) {
+    themeSwitcher.innerHTML = theme === 'light' ? '🌙' : '☀️';
+  }
+
   // Check for saved theme preference
   const savedTheme = localStorage.getItem('theme') || 'light';
-  document.documentElement.setAttribute('data-theme', savedTheme);
-  updateThemeIcon(savedTheme);
+  setTheme(savedTheme);
 
-  // Check system preference
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    updateThemeIcon('dark');
+  // Check system preference if no saved preference
+  if (!localStorage.getItem('theme') && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    setTheme('dark');
   }
 
   // Theme switching functionality
   themeSwitcher.addEventListener('click', () => {
     const currentTheme = document.documentElement.getAttribute('data-theme');
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-    
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    updateThemeIcon(newTheme);
+    setTheme(newTheme);
   });
 
-  function updateThemeIcon(theme) {
-    themeSwitcher.innerHTML = theme === 'light' ? '🌙' : '☀️';
-  }
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+    if (!localStorage.getItem('theme')) {
+      setTheme(e.matches ? 'dark' : 'light');
+    }
+  });
 
   // Add the theme switcher to the page
   document.body.appendChild(themeSwitcher);
