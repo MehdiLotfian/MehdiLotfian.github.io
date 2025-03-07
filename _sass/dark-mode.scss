@@ -1,94 +1,89 @@
 // Dark mode styles
 [data-theme="dark"] {
   // Background colors
-  body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+  body, .page__content, .page__inner-wrap {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
   }
 
   // Text colors
   h1, h2, h3, h4, h5, h6 {
-    color: var(--heading-color);
+    color: #ffffff;
   }
 
   // Links
   a {
-    color: var(--link-color);
+    color: #66b3ff;
     &:hover {
-      color: var(--link-hover-color);
+      color: #99ccff;
     }
   }
 
   // Navigation
-  .navbar {
-    background-color: var(--card-bg);
-    border-bottom: 1px solid var(--border-color);
+  .navbar, .masthead {
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #404040;
   }
 
   // Cards and containers
-  .card, .container {
-    background-color: var(--card-bg);
-    border-color: var(--border-color);
+  .card, .container, .notice {
+    background-color: #2d2d2d;
+    border-color: #404040;
   }
 
   // Code blocks
   pre, code {
-    background-color: var(--code-bg);
-    border-color: var(--border-color);
-    color: var(--text-color);
+    background-color: #2d2d2d;
+    border-color: #404040;
+    color: #e0e0e0;
   }
 
   // Tables
   table {
-    background-color: var(--table-bg);
-    color: var(--text-color);
-    border-color: var(--border-color);
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    border-color: #404040;
   }
 
   // Form elements
   input, textarea, select {
-    background-color: var(--input-bg);
-    border-color: var(--border-color);
-    color: var(--text-color);
+    background-color: #2d2d2d;
+    border-color: #404040;
+    color: #e0e0e0;
   }
 
   // Footer
   footer {
-    background-color: var(--footer-bg);
-    border-top: 1px solid var(--border-color);
+    background-color: #2d2d2d;
+    border-top: 1px solid #404040;
   }
 
   // Author profile
   .author__avatar {
     img {
-      border-color: var(--border-color);
+      border-color: #404040;
     }
   }
 
   .author__content {
-    background-color: var(--card-bg);
+    background-color: #2d2d2d;
   }
 
   // Sidebar
   .sidebar {
-    background-color: var(--sidebar-bg);
-    border-right: 1px solid var(--border-color);
-  }
-
-  // Page content
-  .page__content {
-    background-color: var(--bg-color);
+    background-color: #2d2d2d;
+    border-right: 1px solid #404040;
   }
 
   // Lists
   ul, ol {
-    color: var(--text-color);
+    color: #e0e0e0;
   }
 
   // Blockquotes
   blockquote {
-    border-left-color: var(--border-color);
-    color: var(--text-color);
+    border-left-color: #404040;
+    color: #e0e0e0;
   }
 
   // Images
@@ -98,8 +93,48 @@
 
   // Theme switcher button
   .theme-switcher {
-    background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
-    color: var(--text-color);
+    background-color: #2d2d2d;
+    border: 1px solid #404040;
+    color: #e0e0e0;
+  }
+
+  // Search
+  .search-content {
+    background-color: #2d2d2d;
+    border-color: #404040;
+  }
+
+  // Archive
+  .archive {
+    background-color: #1a1a1a;
+  }
+
+  // Notice boxes
+  .notice--info, .notice--warning, .notice--success, .notice--danger {
+    background-color: #2d2d2d;
+    border-color: #404040;
+  }
+
+  // Syntax highlighting
+  .highlight {
+    background-color: #2d2d2d;
+  }
+
+  // Breadcrumbs
+  .breadcrumbs {
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #404040;
+  }
+
+  // Pagination
+  .pagination {
+    background-color: #2d2d2d;
+  }
+
+  // Social icons
+  .social-icons {
+    .fa {
+      color: #e0e0e0;
+    }
   }
 } 
