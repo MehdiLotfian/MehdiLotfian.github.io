@@ -6,7 +6,7 @@
 
 main:
   - title: "Education"
-    url: /education/
+    url: /
 
   - title: "Research"
     url: /research/
@@ -16,9 +16,6 @@ main:
 
   - title: "Projects"
     url: /projects/
-
-  - title: "Publications"
-    url: /publications/
 
   - title: "Honors"
     url: /honors/
