@@ -22,14 +22,14 @@ repository               : "MehdiLotfian/mehdilotfian.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Mehdi Lotfian"
   pronouns         : # example: "she/her"  
   bio              : "Computer Engineering student at Sharif University of Technology with research interests in Machine Learning, Deep Learning, and Natural Language Processing."
   location         : "Karaj, Alborz, Iran"
   employer         : "Sharif University of Technology"
   uri              : # URL
-  email            : "lotfian.me@gmail.com" 
+  email            : "mehdilotfian.meloent@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
