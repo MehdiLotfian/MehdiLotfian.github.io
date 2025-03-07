@@ -1,3 +1,7 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+{% if site.theme_settings.dark_mode %}
+<script src="{{ base_path }}/assets/js/theme-switcher.js"></script>
+{% endif %}
+
 {% include analytics.html %}
